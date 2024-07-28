@@ -7,5 +7,5 @@ def index(request):
     context = {
         'index': salom
     }
-    return render (request, 'index.html', context)
+    return render (request, 'home_list.html', context)
 
